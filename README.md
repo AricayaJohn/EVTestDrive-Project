@@ -2,7 +2,6 @@
     Purpose
         I want to build a website that have a list of different electric vehicles that will give me a random car to test drive 
         
-
 ### Requirements
     -Have json-server installed
 
