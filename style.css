@@ -1,0 +1,12 @@
+body {
+   text-align: center; 
+   background: rgb(182, 178, 225);
+   
+}
+
+.card {
+    border: grey solid 1px;
+    display: inline-grid;
+    box-shadow: 3px 4px black;
+    text-align: left;
+}
