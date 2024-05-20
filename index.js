@@ -18,22 +18,6 @@ function fetchGetEVData() {
           console.error('Error fetching the json data', error)
         })
       }
- //get the form id "comment-form"
- const comment = document.getElementById("comment-form");
- function handleComment(event) {
-   event.preventDefault();
-   //grab text from comment box
-   //create li
-   //grab the ul element
-   //append the li to ul
-   //clear the text in the box
- }
- comment.addEventListener("submit", handleComment)
- //I want it to show up as an li inside the ul 
- //once comment is added I want to be able to clear the text box
-
-
-
 
 //Create a card
 function showCars(EV) {

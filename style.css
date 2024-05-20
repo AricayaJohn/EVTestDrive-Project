@@ -10,3 +10,7 @@ body {
     box-shadow: 3px 4px black;
     text-align: left;
 }
+
+.random-btn {
+    background-color: rgb(240, 240, 246);
+   }
