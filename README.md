@@ -1,7 +1,10 @@
 # Electric Car Website Project 
-   -As someone interested in new technology and cars, I want to have the users to get information about the Electric vehicles and their qualities that they need
-    -I want this site to give accessibility to get them book a test drive when the customer's see the car that they want.
-    -Since in today's world there is a pletora of option to choose from. I want to give users the option to randomly get a car that they can test drive.
+As someone interested in new technology and cars, I want users of this website to get information about electric vehicles and their qualities.
+
+Since in today's world there is a plethora of options to choose from, I want to give users the option to randomly select a car they can test drive.
+
+I want this site to provide easy accessibility for booking a test drive when customers find the car they want.
+
         
 ### Requirements
     -Have a webrowser installed.
