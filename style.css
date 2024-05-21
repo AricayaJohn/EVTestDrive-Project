@@ -6,9 +6,12 @@ body {
 
 .card {
     border: grey solid 1px;
-    display: inline-grid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     box-shadow: 3px 4px black;
     text-align: left;
+    overflow: hidden; /* Clip overflowing content */
 }
 
 .random-btn {
