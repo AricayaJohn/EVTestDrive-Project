@@ -7,12 +7,63 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body>
+<!--Header-->
     <h1 id = "header">Electric Car Test Drive</h1>
-    <button id = "randomBtn">Random EV</button><br>
+<!--Navigation bar-->
+ <nav class="navbar">
+        <ul class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </ul>
+  </nav>
+<!--random button-->
+  <div id="div-container"></div>
+  <button id ="randomBtn">Random EV</button> <br>
+<!--comment-->
+    <div id = "carModel"></div>
+    <form id="comment-form">
+        <label id = "label-comment">Comment: </label>
+        <input type="text" id="comment" name="comment" placeholder="comment text">
+        <input type="submit" value="Add comment">
+      </form>
+      <ul id="comments">
+      </ul>
+      <br>
+<!-- filter-->
+      <input type="text" id="input" placeholder="color">
+      <button id="filter-button"> Filter</button>
     <hr>
     <br>
     <div id ="ev-collection" class = "card-containter"></div>
     <!--This where we will fetch data from db.json then create card in js-->
+    <section id="home">
+        <h1>Home</h1>
+        <p id = "home" >Welcome to the home section.
+ As someone interested in new technology and cars, I want users of this website to get information about electric vehicles and their qualities.
+
+Since in today's world there is a plethora of options to choose from, I want to give users the option to randomly select a car they can test drive.
+
+I want this site to provide easy accessibility for booking a test drive when customers find the car they want.
+        </p>
+    </section>
+
+    <section id="about">
+        <h1>About</h1>
+        <p>Information about us.</p>
+    </section>
+
+    <section id="services">
+        <h1>Services</h1>
+        <p>Details of our services.</p>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>How to contact us.</p>
+        <a href = "https://www.linkedin.com/in/john-aricaya/">@john-aricaya</a>
+    </section>
     <script src = "index.js"></script>
 </body>
 </html>

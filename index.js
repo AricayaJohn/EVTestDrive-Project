@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     fetchGetEVData();// ()=> defining the callback function to load html content to load
     createRandomBtn(); // call the function for random button to give random EV
-})
+  })
 //dom Content Loaded is to load the html file 
 //and when an event function is called it triggers an action
 //This is to get/retrieve data from db.json
@@ -84,6 +84,15 @@ function handleSubmit(event) {
       alert("Your Test Drive reservaton has been completed");
       form.reset();  
   };
+//add like button 
+  const likeBtns = document.createElement("button")
+    likeBtns.textContent = "like";
+    likeBtns.addEventListener("click", (event) => {
+      event.preventDefault();
+      alert(`You have liked the ${EV.Model}`)
+    })
+
+    
 //callback
     form.addEventListener("submit", handleSubmit)      
 //Going to append the form to the card DOM
@@ -105,7 +114,7 @@ function handleSubmit(event) {
     form.appendChild(submitBtn)
 
 //Connect the data to html div to be able to send to the DOM       
-div.append (img, h2, p, price, range, form)
+div.append (img, h2, p, price, range, form, likeBtns)
     evCollection.append(div)
 }
 function createRandomBtn() {

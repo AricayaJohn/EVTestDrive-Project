@@ -1,19 +1,62 @@
 body {
    text-align: center; 
-   background: rgb(182, 178, 225);
-   
+   /* for color #hex code min 00 max 255 ex #0000ff //ff = max //00 min   */
+   background: rgb(182, 178, 225);  
+}
+/* . for id and # for class */
+#header {
+    color: orange;
+    background-color: brown;
+    text-transform: uppercase;
+    text-decoration: underline black;
+    font-size: 3rem;
+    text-shadow:  4px 4px 4px white;
+    
+}
+.navbar {
+    font-size: 2em;
+    text-align: left;
+
+}
+.random-btn {
+    background-color: rgb(240, 240, 246);
+    color: brown;
+    float: left;
+    font-size: 2em;
+    text-decoration: dashed underline green;
+}
+
+#comment-form{
+    float: right;
+    font-size: 2em;
+}
+#label-comment {
+    font-size: 1em;
+    text-decoration: underline dotted black;
+    text-transform: uppercase;
 }
 
 .card {
     border: grey solid 1px;
-    display: flex;
+    display:grid;
     align-items: center;
     gap: 10px;
     box-shadow: 3px 4px black;
     text-align: left;
     overflow: hidden; /* Clip overflowing content */
 }
+.car-img{
+    width: 150px;
+    height: 90%;
+}
 
-.random-btn {
-    background-color: rgb(240, 240, 246);
-   }
+#home {
+    text-align: left;
+    font-size: 28px;
+}
+
+#filter-button {
+    /*font size default 16px*/
+    /*small is 13px medium is 16px large is 18px*/
+    font-size: 20px;
+}
