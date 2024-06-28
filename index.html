@@ -14,7 +14,7 @@
         <ul class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#services">Services</a>
+            <a href="#trending">Trending</a>
             <a href="#contact">Contact</a>
         </ul>
   </nav>
@@ -38,6 +38,42 @@
     <br>
     <div id ="ev-collection" class = "card-containter"></div>
     <!--This where we will fetch data from db.json then create card in js-->
+   
+    <table class = "table">
+        <tr>
+            <th>Car Name</th>
+            <th>Car Location</th>
+        </tr>
+        <tr>
+            <td>Ford Mache E</td>
+            <td>San Jose</td>
+        </tr>
+        <tr>
+            <td>Chevrolet Chevy Bolt</td>
+            <td>Los Angeles</td>
+        </tr>
+        <tr>
+            <td>Lucid Motor Lucid Air</td>
+            <td>Long Beach</td>
+        </tr>
+        <tr>
+            <td>Rivian R1 S</td>
+            <td>San Francisco</td>
+        </tr>
+        <tr>
+            <td>Tesla Model S</td>
+            <td>San Diego</td>
+        </tr>
+        <tr>
+            <td>Kia EV6</td>
+            <td>Daly City</td>
+        </tr>
+        <tr>
+            <td>Volvo XC40 Recharge</td>
+            <td>Los Angeles</td>
+        </tr>
+    </table>
+   
     <section id="home">
         <h1>Home</h1>
         <p id = "home" >Welcome to the home section.
@@ -51,12 +87,56 @@ I want this site to provide easy accessibility for booking a test drive when cus
 
     <section id="about">
         <h1>About</h1>
-        <p>Information about us.</p>
+        <p>
+         We are passionate about electric vehicles (EVs) and committed to helping you make the transition to a greener, more sustainable mode of transportation. Our mission is to provide you with the most comprehensive and enjoyable test drive experience possible, ensuring you have all the information you need to make an informed decision.
+        </p>
+        <h2>Our Vision</h2>
+        <p>We envision a world where clean, efficient, and eco-friendly vehicles are the norm. As the world shifts towards sustainable energy solutions, we aim to be at the forefront, guiding you every step of the way in your journey towards adopting electric vehicles.
+        </p>
+        <h2>What We Offer</h2>
+        <ul>
+            <li><strong>Extensive EV Range:</strong> Explore our diverse selection of the latest electric vehicles from top manufacturers. Whether you’re looking for a compact city car or a luxurious SUV, we have something to suit every lifestyle and preference.</li>
+            <li><strong>Expert Guidance:</strong> Our knowledgeable team of EV specialists is here to answer all your questions, provide insights, and help you understand the benefits of going electric.</li>
+            <li><strong>Personalized Test Drives:</strong> Experience the thrill of driving an electric vehicle with our tailored test drive sessions. We cater to your schedule and provide customized routes to showcase the full potential of each EV.</li>
+            <li><strong>Comprehensive Information:</strong> From charging infrastructure to government incentives, we provide all the information you need to navigate the world of electric vehicles with confidence.</li>
+        </ul>
+        <h2>Why Choose Us?</h2>
+        <p>
+            <ul>
+                <li><strong>Passion for Sustainability:</strong> We believe in a sustainable future and are dedicated to promoting electric vehicles as a key solution to reducing our carbon footprint.<br></li>
+                <li><strong>Customer-Centric Approach:</strong> Your satisfaction is our top priority. We strive to make your test drive experience seamless, informative, and enjoyable.<br></li>
+                <li><strong>Trusted Expertise:</strong> With years of experience in the automotive industry and a deep understanding of EV technology, we are your trusted partner in making the switch to electric.</li>
+            </ul>
+        </p>
+        <h2>Join the Revolution</h2>
+        <p>
+            Be part of the electric vehicle revolution. Discover the benefits of electric driving, from zero emissions to significant cost savings, and find the perfect EV that meets your needs. Together, let’s drive towards a cleaner, greener future.
+        </p>
     </section>
 
-    <section id="services">
-        <h1>Services</h1>
-        <p>Details of our services.</p>
+    <section id="trending">
+        <h1>Trending</h1>
+        <div>
+            <h2>Trending Today</h2>
+            <ul class="trends">
+              <li>Volvo: XC40 Recharge</li>
+              <li>Kia: EV6</li>
+            </ul>
+            <h2>Most Watched</h2>
+            <ul class="most-watched">
+              <li>Tesla: Model S</li>
+              <li>Rivian: R1 S</li>
+            </ul>
+            <h2>New Arrivals</h2>
+            <ul class="new-arrivals">
+              <li>Lucid Motor: Lucid Air</li>
+              <li>Chevrolet: Chevy Bolt</li>
+            </ul>
+            <h2>Classics</h2>
+            <ol class="classics">
+              <li>Ford: Mache E</li>
+            </ol>
+        </div>
     </section>
 
     <section id="contact">
@@ -65,6 +145,8 @@ I want this site to provide easy accessibility for booking a test drive when cus
         <a id = "linkedin" href = "https://www.linkedin.com/in/john-aricaya/"> Linkedin: @john-aricaya</a><br>
         <a href = "https://github.com/AricayaJohn">Github : AricayaJohn</a>
     </section>
+    <br>
+
     <script src = "index.js"></script>
 </body>
 </html>

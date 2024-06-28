@@ -1,7 +1,12 @@
 body {
    text-align: center; 
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
    /* for color #hex code min 00 max 255 ex #0000ff //ff = max //00 min   */
-   background: rgb(182, 178, 225);  
+   background: rgba(75, 144, 149, 0.765);  
 }
 /* . for id and # for class */
 #header {
@@ -25,11 +30,14 @@ body {
     font-size: 2em;
     font-weight: 600;
     text-decoration: dashed underline green;
+    margin: 5px 10px 8px 35px;
+    padding: 5px 20px 5px 10px
 }
 
 #comment-form{
     float: right;
     font-size: 2em;
+    border:1px solid #FF9E03;
 }
 #label-comment {
     font-size: 1em;
@@ -37,8 +45,7 @@ body {
     font-weight: bold;
     text-decoration: underline dotted black;
     text-transform: uppercase;
-
-
+    color: #FF9E03
 }
 
 .card {
@@ -70,3 +77,75 @@ body {
 a:hover {
     background-color: blueviolet;
 }
+
+.table {
+    border-width: 1em 10px 30px;
+    border-style: double solid;
+    border-color: rgb(138, 46, 46);
+    border-collapse: separate;
+}
+td {
+    text-align: left;
+    background-color: rgb(110, 110, 207);
+}
+
+th{
+    text-align: left;
+    background-color: aliceblue;
+}
+
+#about{
+    text-align: left;
+}
+
+#about h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+strong {
+    color: #000;
+}
+#about p {
+    font-size: 2em;
+}
+
+ul{
+    list-style:  square inside none;
+}
+li {
+    border: 2px solid #CCCCCC;
+    font-size: 18px;
+  }
+
+.trends {
+    background-color: #FFA055;
+    list-style-type: square;
+    list-style-position: outside;
+  }
+  
+  .most-watched {
+    background-color: #FFA055;
+    list-style-image: url('https://blob.sololearn.com/courses/logo.png');
+    list-style-position: inside;
+  }
+  
+  .new-arrivals {
+    background-color: #FFA055;
+    list-style-type: disc;
+    list-style-position: outside
+  }
+  
+  .classics {
+    background-color: #FFA055;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+  }
+
+  input {
+    color: #e07396;
+    border: 3px solid #34be3b;
+    border-radius: 20px;
+    /* padding space between content and border: top, right, bottom left */
+    padding: 5px 20px 8px 10px;
+    /* 30 no edges 50% sircle more than 50 oblongated border*/
+  }
