@@ -52,15 +52,37 @@ body {
     border: grey solid 1px;
     display:grid;
     align-items: center;
-    gap: 10px;
-    box-shadow: 3px 4px black;
+    gap: 2px;
+    box-shadow: 5px 5px #000000;
     text-align: left;
+    padding: 8px;
+    margin: 35px;
+    font-size: 25px;
     overflow: hidden; /* Clip overflowing content */
 }
 .car-img{
     width: 30%;
     height: 90%;
+    box-shadow: 0 30px 50px #000000;
+    border: 1px solid rgb(189, 185, 185);
+    display: flex;
 }
+
+#card-button{
+    border: 3px solid rgb(189, 185, 185);
+    box-shadow: 0 5px 4px #000000;
+    background-color: rgb(247, 228, 203);
+    margin: 5px;
+    font-size: 20px;
+}
+
+div {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(189, 185, 185);
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 #home {
     text-align: left;
@@ -148,4 +170,29 @@ li {
     /* padding space between content and border: top, right, bottom left */
     padding: 5px 20px 8px 10px;
     /* 30 no edges 50% sircle more than 50 oblongated border*/
+  }
+
+  h2{
+    margin-bottom: 0%;
+    border: 3px solid purple;
+    box-shadow: 5px 5px #000000;
+    margin-right: 10px;
+    margin-left: 25px;
+  }
+
+  p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 10px;
+    margin-left: 25px;
+  }
+
+  .container-row {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid rgb(54, 45, 45);
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
   }

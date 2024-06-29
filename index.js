@@ -86,10 +86,19 @@ function handleSubmit(event) {
   };
 //add like button 
   const likeBtns = document.createElement("button")
-    likeBtns.textContent = "like";
+    likeBtns.textContent = "Like";
+    likeBtns.id = "card-button"
     likeBtns.addEventListener("click", (event) => {
       event.preventDefault();
       alert(`You have liked the ${EV.Model}`)
+    })
+
+  const deleteBtn = document.createElement("button")
+    deleteBtn.textContent = "Delete"
+    deleteBtn.id = "card-button"
+    deleteBtn.addEventListener("click", (e) => {
+      event.preventDefault();
+      alert("need to add delete card functionality")
     })
 
     
@@ -114,7 +123,7 @@ function handleSubmit(event) {
     form.appendChild(submitBtn)
 
 //Connect the data to html div to be able to send to the DOM       
-div.append (img, h2, p, price, range, form, likeBtns)
+div.append (img, h2, p, price, range, form, likeBtns, deleteBtn)
     evCollection.append(div)
 }
 function createRandomBtn() {
