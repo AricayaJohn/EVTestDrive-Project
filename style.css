@@ -16,13 +16,16 @@ body {
     text-decoration: underline black;
     font-size: 3rem;
     text-shadow:  4px 4px 4px white;
-    
+}
+#header:active {
+    transform: translate(-25px, 10px);
 }
 .navbar{
     font-size: 2em;
     text-align: left;
     background-color: aliceblue;
 }
+
 .random-btn {
     background-color: rgb(240, 240, 246);
     color: brown;
@@ -33,6 +36,7 @@ body {
     margin: 5px 10px 8px 35px;
     padding: 5px 20px 5px 10px;
 }
+
 
 #comment-form{
     float: right;
@@ -75,6 +79,8 @@ input#comment{
     overflow: hidden; /* Clip overflowing content */
     background-color: beige;
 }
+
+
 .car-img{
     width: 30%;
     height: 90%;
@@ -213,7 +219,11 @@ li {
     margin-top: 20px;
   }
 
-  .image_background {
+#trending_section {
+    background-color: rgb(192, 142, 142);
+}
+
+.image_background {
     background-image: url(carbackground.png);
     background-repeat: repeat-x;
     background-position: center;
@@ -226,3 +236,47 @@ li {
     margin-top: 30px;
     border: 3px solid;
   }
+.image_background:active{
+    transform: translate(100px, 150px)
+    rotate(-45deg) 
+    scale(1.5)
+}
+
+#contact_title{
+    border-radius: 45%;
+    background-color: rgb(250, 210, 162);
+}
+#contact_title:active {
+    transform: scale(3.5)
+}
+
+#Trending {
+ background-color: rgb(250, 210, 162);
+}
+
+#Trending:active {
+    transform: rotate(25deg)
+}
+
+#most_watched {
+    background-color: rgb(250, 210, 162)
+}
+
+#most_watched:active{
+    transform: rotate(-25deg)
+}
+
+#new-arrivals {
+    background-color: rgb(250, 210, 162)
+}
+#new-arrivals:active {
+    transform: rotate(30deg);
+    transform-origin: top left;
+}
+#Classics_title {
+    background-color: rgb(250, 210, 162)
+}
+#Classics_title:active {
+    transform: rotate(45deg);
+    transform-origin : top right;
+}
